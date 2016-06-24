@@ -1,6 +1,6 @@
 Authors: Praneet Chaturvedi, Kashish Chetal, Sithara Raju Ponny, Simarjot Pabla
 
-CSBB is a command line based bioinformatics suite to analyze biological data acquired through varied avenues of biological experiments. CSBB is implemented in Perl, while it also leverages the use of R and python in background for specific modules. Major focus of CSBB is to allow users from biology and bioinformatics community, to get benefited by performing down-stream analysis tasks while eliminating the need to write programming code.  CSBB is currently available on Linux, UNIX, MACOSX and Windows platforms.
+CSBB is a command line based bioinformatics suite to analyze biological data acquired through varied avenues of biological experiments. CSBB is implemented in Perl, while it also leverages the use of R and python in background for specific modules. Major focus of CSBB is to allow users from biology and bioinformatics community, to get benefited by performing down-stream analysis tasks while eliminating the need to write programming code.  CSBB is currently available on Linux, UNIX, MAC OS and Windows platforms.
 
 Currently CSBB provides 13 modules focused on analytical tasks like performing upper-quantile normalization on expression data or convert genome wide gene expression to z-scores when comparing expression data from different platforms.                                                        
 
