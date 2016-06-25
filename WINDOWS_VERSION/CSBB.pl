@@ -812,15 +812,15 @@ sub pca
  {
   my $dirtoPythonpip=$cwd."\/"."Modules"."\/"."get_pip.py";
   print "\nInstalling pip on the system\n";
-  system("sudo","python","$dirtoPythonpip");
+  system("python","$dirtoPythonpip");
   print "\nUpgrading Numpy\n";
-  system("sudo","easy_install","--upgrade","numpy");
+  system("easy_install","--upgrade","numpy");
   print "\nUpgrading Scipy\n";
-  system("sudo","easy_install","--upgrade","scipy");
+  system("easy_install","--upgrade","scipy");
   print "\nInstalling Pandas\n";
-  system("sudo","pip","install","pandas");
+  system("pip","install","pandas");
   print "\nInstalling Scikit\-Learn\n";
-  system("sudo","pip","install","scikit-learn");
+  system("pip","install","scikit-learn");
   my $dirtoPython=$cwd."\/"."Modules"."\/"."PCA_Gene.py";
   system("python","-W","ignore","$dirtoPython","$file") ==0 or die "\nExcecution Stopped because of errors \.\.\. Please See Possible Errors Section of README or Contact CSBB for bugs and issues\n";
   print "\nPython run Complete\n";
@@ -833,15 +833,15 @@ sub pca
  {
   my $dirtoPythonpip=$cwd."\/"."Modules"."\/"."get_pip.py";
   print "\nInstalling pip on the system\n";
-  system("sudo","python","$dirtoPythonpip");
+  system("python","$dirtoPythonpip");
   print "\nUpgrading Numpy\n";
-  system("sudo","easy_install","--upgrade","numpy");
+  system("easy_install","--upgrade","numpy");
   print "\nUpgrading Scipy\n";
-  system("sudo","easy_install","--upgrade","scipy");
+  system("easy_install","--upgrade","scipy");
   print "\nInstalling Pandas\n";
-  system("sudo","pip","install","pandas");
+  system("pip","install","pandas");
   print "\nInstalling Scikit\-Learn\n";
-  system("sudo","pip","install","scikit-learn");
+  system("pip","install","scikit-learn");
   my $dirtoPython=$cwd."\/"."Modules"."\/"."PCA_Samples.py";
   system("python","-W","ignore","$dirtoPython","$file") ==0 or die "\nExcecution Stopped because of errors \.\.\. Please See Possible Errors Section of README or Contact CSBB for bugs and issues\n";
   print "\nPython run Complete\n";
