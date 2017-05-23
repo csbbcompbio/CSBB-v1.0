@@ -1,3 +1,4 @@
+"" CSBB-v2.1 is released and can be downloaded from https://sourceforge.net/projects/csbb-v2-1/ for free ""
 Authors: Praneet Chaturvedi, Kashish Chetal, Sithara Raju Ponny, Simarjot Pabla
 
 CSBB is a command line based bioinformatics suite to analyze biological data acquired through varied avenues of biological experiments. CSBB is implemented in Perl, while it also leverages the use of R and python in background for specific modules. Major focus of CSBB is to allow users from biology and bioinformatics community, to get benefited by performing down-stream analysis tasks while eliminating the need to write programming code.  CSBB is currently available on Linux, UNIX, MAC OS and Windows platforms.
